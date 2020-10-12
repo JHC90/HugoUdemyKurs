@@ -1,7 +1,7 @@
 ---
 title: "01_ersterPost"
 date: 2020-10-09T14:02:15+02:00
-draft: false
+draft: true
 description: "Beschreibung des ersten Textes"
 tags:  ["hugo","Front Matter"]
 kurse:  ["Infomratik","Web"]

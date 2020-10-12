@@ -1,7 +1,7 @@
 ---
 title: "Willkommen auf meiner Webseite"
 date: 2020-10-12T09:47:55+02:00
-draft: False
+draft: false
 tags: ["welcome"]
 url: 
 ---
