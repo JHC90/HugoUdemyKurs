@@ -39,6 +39,10 @@ Diese Webseite ist nach folgender Logik struktuiert:
 
    In der Rubrik  **Projekte**finden sich meine umgesetzten Projekte und die jeweilig zugehörige historische Dokumentaion zu den Umsetzungen. Konkret sind die Projektbeschreibungen entlang der technischen und konzeptionellen Dokumentationen verlinkt. Ein Projekt besteht in diesem Kontext aus der Zusammensetzung unterschiedlicher Technologien und Konzepte in einem Bestimmten Domänenzusammenhang. 
 
+<iframe width="560" height="315" src="temp-plot.html" frameborder="0" ></iframe>
+
+
+
 ----
 ----
 ----

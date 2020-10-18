@@ -8,7 +8,7 @@ theme = "beautifulhugo"
     identifier = "welcome"
     name = "Willkommen"
     weight = 1
-    url = "post/welcome"
+    url = "post/01_helloworld"
 
 # -------------
 # -------------
