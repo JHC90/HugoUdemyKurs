@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de-de">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ .Site.Title }}</title>
+        <link rel= "stylesheet" href= "{{ "css/style.css"| relURL  }}">
+        <link rel= "stylesheet" href= "{{ "css/styleMenu.css"| relURL  }}">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    </head>
+    <body>
+        
+        {{ partial "header.html" . }}
+        <h1>{{ .Site.Title}}</h1>
+
+        {{- partial "menu.html" . -}}
+        
+        {{ .Content }}
+
+        
+        
+        
+
+        
+    </body>
+</html>

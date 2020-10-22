@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        {{- partial "header.html" . -}}
+        {{- partial "menu.html" . -}}
+
+        <!---Einbinden des JS-Applets
+        <div id="particles-js"></div>-->
+        
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+
+        <script src="{{ .Site.BaseURL }}js/particles.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/particles.js"></script> 
+    </body>
+</html>

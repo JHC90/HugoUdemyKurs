@@ -1,0 +1,4 @@
+baseURL = "https://127.0.0.1:1313"
+languageCode = "en-us"
+title = "JHC-Jochen Hollich Consulting"
+theme = "basic"

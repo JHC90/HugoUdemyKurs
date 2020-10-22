@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    {{- partial "head.html" . -}}
+    <body>
+        <div id="headerdiv">
+            {{- partial "header.html" . -}}
+        </div>
+
+        <div class="clear-float"></div>
+
+        <div id="menudiv">
+            {{- partial "menu.html" . -}}
+        </div>
+        <!---Einbinden des JS-Applets
+        <div id="particles-js"></div>-->
+        
+        <div id="contentdiv">
+            {{- block "main" . }}{{- end }}
+        </div>
+
+
+        <div class="clear-float"></div>
+
+        <div id="footerdiv">
+            {{- partial "footer.html" . -}}
+        </div>
+
+        <script src="{{ .Site.BaseURL }}js/particles.min.js"></script>
+    <script src="{{ .Site.BaseURL }}js/particles.js"></script> 
+    </body>
+</html>
